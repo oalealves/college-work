@@ -16,9 +16,17 @@
 
 body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     font-family: "Poppins", sans-serif;
     background-color: var(--branco);
+    flex-direction: column;
+    display: flex;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -96,4 +104,5 @@ footer {
     color: var(--branco);
     text-align: center;
     padding: 1em;
+    
 }
